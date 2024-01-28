@@ -8,12 +8,11 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int counter = 0,
-	int counter2 = 0;
+	int counter = 0, counter2 = 0;
 
 	while (*(dest + counter) != '\0')
 	{
-		count++;
+		counter++;
 	}
 
 	while (counter2 < n)
