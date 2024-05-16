@@ -4,11 +4,11 @@
  * _memset - function fill the first @n bytes of the memory area pointed
  * to by @s with the constant byte @b
  *
- * @n: number of bytes to be filled with @b
+ * @n: bytes of the memory area pointed to by @s
  *
- * @s: memory pointer to be filled with @b
+ * @s: with the constant byte @b
  *
- * @b: bytes to fill memory with 
+ * @b: memory area pointer
  *
  * Return: a pointer to the memory area @s
  */
