@@ -5,7 +5,7 @@
  * memory address @src to memory address
  * @dest
  *
- * @n: function copies 
+ * @n: function copies
  *
  * @src: bytes from memory area
  *
