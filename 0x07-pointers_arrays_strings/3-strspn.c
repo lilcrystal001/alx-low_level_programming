@@ -3,14 +3,14 @@
 /**
  * _strspn - a function that gets the length of a prefix substring
  *
- * @s: the initial segment
+ * @s: the initial segment of
  *
- * @accept: which only consists of bytes from
+ * @accept: which consist only of bytes from
  *
  * Return: the number of bytes
  */
 
-unsigned int_strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	int z = 0, x, y;
 
@@ -28,4 +28,5 @@ unsigned int_strspn(char *s, char *accept)
 			return (z);
 	}
 		return (z);
+
 }
